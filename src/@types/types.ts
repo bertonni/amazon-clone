@@ -13,3 +13,16 @@ export interface ISidebarSectionProps {
   data: ISidebarItem[];
   noSeparator?: boolean;
 }
+
+export interface IProductFeedProps {
+  products: IProducts[];
+}
+
+export interface IProducts {
+  id: number;
+  title: string;
+  price: string;
+  description: string;
+  image: string;
+  category: string;
+}

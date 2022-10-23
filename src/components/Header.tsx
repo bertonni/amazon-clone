@@ -38,23 +38,23 @@ const Header = () => {
           </div>
           <div className="flex items-center text-white text-xs mx-6 whitespace-nowrap">
             <div className="h-12 link py-2">
-              <p>Hello, Ibrakadabra</p>
-              <p className="font-extrabold md:text-sm">Account & Lists</p>
+              <p>Olá, Ibrakadabra</p>
+              <p className="font-extrabold md:text-sm">Contas e Listas</p>
             </div>
             <div className="h-12 link py-2">
-              <p>Returns</p>
-              <p className="font-extrabold md:text-sm">& Orders</p>
+              <p>Devoluções</p>
+              <p className="font-extrabold md:text-sm">e Pedidos</p>
             </div>
             <div className="flex h-12 link items-center relative py-2">
               <span
-                className="rounded-full absolute h-4 w-4 text-center font-bold bg-yellow-400
-            text-black right-1 top-0 md:right-12"
+                className="rounded-full absolute h-4 w-4 text-center font-bold bg-amber-500
+            text-black right-1 top-0 md:right-14"
               >
                 0
               </span>
               <ShoppingCartIcon className="h-10" />
               <p className="hidden md:inline font-extrabold md:text-sm mt-2">
-                Basket
+                Carrinho
               </p>
             </div>
           </div>
@@ -62,28 +62,28 @@ const Header = () => {
         <div className="flex items-center bg-amazon-blue-light text-white text-sm p-2 pl-6">
           <p className="h-7 px-2 py-1 flex items-center link font-semibold" onClick={() => setIsOpen(true)}>
             <Bars3Icon className="h-6 mr-1" />
-            All
+            Todos
           </p>
-          <p className="h-7 px-2 font-semibold py-1 link">Prime Video</p>
-          <p className="h-7 px-2 font-semibold py-1 link">Amazon Business</p>
-          <p className="h-7 px-2 font-semibold py-1 link">Today&#39;s Deals</p>
-          <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
-            Electronics
-          </p>
-          <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
-            Food & Grocery
-          </p>
+          <p className="h-7 px-2 font-semibold py-1 link">Venda na Amazon</p>
           <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
             Prime
           </p>
+          <p className="h-7 px-2 font-semibold py-1 link">Jogos</p>
+          <p className="h-7 px-2 font-semibold py-1 link">Brinquedos e Jogos</p>
           <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
-            Buy again
+            Ideias para Presente
           </p>
           <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
-            Shopper Toolkit
+            Eletrônicos
           </p>
           <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
-            Health & Personal Care
+            eBooks Kindle
+          </p>
+          <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
+            Livros
+          </p>
+          <p className="h-7 px-2 font-semibold py-1 link hidden lg:inline-flex">
+            Computadores
           </p>
         </div>
       </header>

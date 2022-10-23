@@ -10,10 +10,10 @@ const SidebarSection = ({ title, data, noSeparator }: ISidebarSectionProps) => {
         <div
           key={index}
           className="flex items-center space-between cursor-pointer hover:bg-gray-200
-          py-2 mt-1 pl-8 pr-4 text-black text-sm"
+          py-2 mt-1 pl-8 pr-4 text-black text-sm group"
         >
           <span className='flex-1'>{item.value}</span>
-          {item.hasSubsection && <ChevronRightIcon className='h-6 w-6 text-black' />}
+          {item.hasSubsection && <ChevronRightIcon className='h-5 w-5 text-gray-600 group-hover:text-black' />}
         </div>
       ))}
 
